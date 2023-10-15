@@ -19,7 +19,7 @@ case 'm':
 			x = strtol(argv[i], NULL, 10);
 			r *= x;
 			}
-		cout<< "Результат: "<< r<<endl;
+		cout<< "Результат: "<< m<<endl;
 	break;
 	
 	case 'd':	
@@ -27,9 +27,9 @@ case 'm':
 				for(i=4; i<argc; i++)
 				{
 					t = strtol(argv[i], NULL, 10);
-				b /= t
+				b /= t;
 				}
-			cout<< "Результат: "<< b <<endl;
+			cout<< "Результат: "<< d <<endl;
 break; 
   }
   }
