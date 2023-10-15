@@ -17,17 +17,17 @@ case 'm':
 			for(i=4; i<argc; i++)
 			{
 			x = strtol(argv[i], NULL, 10);
-			r *= x;
+			m *= x;
 			}
 		cout<< "Результат: "<< m<<endl;
 	break;
 	
 	case 'd':	
-				b = 0;
+				d=0;
 				for(i=4; i<argc; i++)
 				{
 					t = strtol(argv[i], NULL, 10);
-				b /= t;
+				d /= t;
 				}
 			cout<< "Результат: "<< d <<endl;
 break; 
